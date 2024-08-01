@@ -1,0 +1,34 @@
+.navigationBar
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 100%
+    padding: 10px
+    border-bottom: 2px solid #9C8561
+
+.navigationList
+    display: flex
+    align-items: center
+    gap: 50px
+    text-align: center
+    font-weight: bolder
+
+.activeNavLink
+    position: relative
+    padding-bottom: 10px
+
+.activeNavLink:after 
+    position: absolute
+    content: ""
+    display: block
+    height: 6px
+    width: 100%
+    left: 0
+    right: 0
+    bottom: 2px
+    background: linear-gradient(90deg, #5d532e 0, #5d532e 34%, #9c8561 34%, #b3a186 57%, #dacfbd 57%, #dacfbd 100%)
+
+.supportLink
+    background-color: #1f469a
+    color: white
+    padding: 15px 25px
